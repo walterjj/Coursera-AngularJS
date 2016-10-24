@@ -1,0 +1,8 @@
+<h2>Categories</h2>
+
+<ul>
+<li class="item" ng-repeat="category in $resolve.categoriesData"
+      ui-sref="items({category: category.short_name})">
+      {{category.name}}
+  </li>
+</ul>

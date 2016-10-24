@@ -1,5 +1,6 @@
 <style>
 .item{border-bottom:solid 1px;clear:both; padding:1em}
+.error{clear:both;color:red}
 </style>
 
 <div class="row item" ng-repeat="item in items">

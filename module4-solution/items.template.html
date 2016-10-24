@@ -1,0 +1,7 @@
+<h2>{{$resolve.items.category.name}}</h2>
+<ul>
+  <li class="item" ng-repeat="item in $resolve.items.menu_items">
+      {{ item.short_name }} - {{ item.name }}
+      <div class="description">{{item.description}}</div>
+  </li>
+</ul>

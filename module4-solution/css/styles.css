@@ -1,0 +1,34 @@
+body {
+  font-size: 1.2em;
+  font-family: Roboto,Arial,sans-serif;
+  text-align:center;
+  min-height: 100vh;
+  vertical-align: middle;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+li{list-style-type:none}
+.item{ padding:1em; font-weight:bold;}
+.item .description {font-weight:normal;font-style:oblique ;font-color:#888; }
+
+.item[ui-sref] {
+  display:inline-block;
+  
+  min-width:200px;
+  min-height:50px;
+  
+  cursor: pointer;
+}
+.item[ui-sref]:hover {
+  
+  font-size:14px;
+}
+h2{font-size: 19px; padding:2em; font-weight:100; color:#999; font-style:italic;}
+
+.container-fluid {max-width:750px;}
+
